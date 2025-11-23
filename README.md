@@ -12,7 +12,13 @@ This replication package provides all code and data necessary to reproduce the e
 
 ## Paper Abstract
 
-[Add your paper abstract here]
+We revisit macroeconomic time-varying parameter vector autoregressions (TVP-VARs), whose persistent coefficients may adapt too slowly to large, abrupt
+shifts such as those during major crises. We explore the performance of an adaptively-varying parameter (AVP) VAR that incorporates deterministic
+adjustments driven by observable exogenous variables, replacing latent state innovations with linear combinations of macroeconomic and financial indicators.
+This reformulation collapses the state equation into the measurement equation, enabling simple linear estimation of the model. Simulations show that adaptive
+parameters are substantially more parsimonious than conventional TVPs, effectively disciplining parameter dynamics without sacrificing flexibility. Using
+macroeconomic datasets for both the U.S. and the euro area, we demonstrate that AVP-VAR consistently improves out-of-sample forecasts, especially during periods
+of heightened volatility.
 
 ## Software Requirements
 
@@ -216,11 +222,11 @@ If you use this code in your research, please cite:
 
 ## License
 
-[Add license information - e.g., MIT, GPL, etc.]
+MIT
 
 ## Contact
 
-For questions or issues with the replication package, please contact:
+For issues with the replication package, please contact:
 - Nicolas Hardy: nicolas.hardy.hernandez@gmail.com
 - Dimitris Korobilis: dikorobilis@googlemail.com
 - Or open an issue on this GitHub repository
